@@ -13,7 +13,7 @@ class ClientKotlin : Application() {
     @get:Throws(MalformedURLException::class)
     val endpointTest1: Unit
         get() {
-            val aseUrl1 = HttpUrl.get("http://api.example.com/v1/megaRequest")
+            val aseUrl1 = HttpUrl.get("https://virtserver.swaggerhub.com/")
             println("sdf")
             URL("")
         }

@@ -364,7 +364,7 @@ paths:
           description: Invalid ID supplied
         '404':
           description: Order not found
-  /user:
+  /user2:
     post:
       tags:
         - user
@@ -384,7 +384,7 @@ paths:
       responses:
         default:
           description: successful operation
-  /user/createWithArray:
+  /user2/createWithArray:
     post:
       tags:
         - user
@@ -406,7 +406,7 @@ paths:
       responses:
         default:
           description: successful operation
-  /user/createWithList:
+  /user2/createWithList:
     post:
       tags:
         - user
@@ -428,7 +428,7 @@ paths:
       responses:
         default:
           description: successful operation
-  /user/login:
+  /user2/login:
     get:
       tags:
         - user
@@ -465,7 +465,7 @@ paths:
               description: date in UTC when toekn expires
         '400':
           description: Invalid username/password supplied
-  /user/logout:
+  /user2/logout:
     get:
       tags:
         - user
@@ -479,7 +479,7 @@ paths:
       responses:
         default:
           description: successful operation
-  '/user/{username}':
+  '/user2/{username}':
     get:
       tags:
         - user
@@ -504,52 +504,52 @@ paths:
           description: Invalid username supplied
         '404':
           description: User not found
-    put:
-      tags:
-        - user
-      summary: Updated user
-      description: This can only be done by the logged in user.
-      operationId: updateUser
-      produces:
-        - application/xml
-        - application/json
-      parameters:
-        - name: username
-          in: path
-          description: name that need to be deleted
-          required: true
-          type: string
-        - in: body
-          name: body
-          description: Updated user object
-          required: true
-          schema:
-            $ref: '#/definitions/User'
-      responses:
-        '400':
-          description: Invalid user supplied
-        '404':
-          description: User not found
-    delete:
-      tags:
-        - user
-      summary: Delete user
-      description: This can only be done by the logged in user.
-      operationId: deleteUser
-      produces:
-        - application/xml
-        - application/json
-      parameters:
-        - name: username
-          in: path
-          description: The name that needs to be deleted
-          required: true
-          type: string
-      responses:
-        '400':
-          description: Invalid username supplied
-        '404':
-          description: User not found
+      put:
+        tags:
+          - user
+        summary: Updated user
+        description: This can only be done by the logged in user.
+        operationId: updateUser
+        produces:
+          - application/xml
+          - application/json
+        parameters:
+          - name: username
+            in: path
+            description: name that need to be deleted
+            required: true
+            type: string
+          - in: body
+            name: body
+            description: Updated user object
+            required: true
+            schema:
+              $ref: '#/definitions/User'
+        responses:
+          '400':
+            description: Invalid user supplied
+          '404':
+            description: User not found
+      delete:
+        tags:
+          - user
+        summary: Delete user
+        description: This can only be done by the logged in user.
+        operationId: deleteUser
+        produces:
+          - application/xml
+          - application/json
+        parameters:
+          - name: username
+            in: path
+            description: The name that needs to be deleted
+            required: true
+            type: string
+        responses:
+          '400':
+            description: Invalid username supplied
+          '404':
+            description: User not found
 securityDefinitions:
   petstore_auth:
     type: oauth2

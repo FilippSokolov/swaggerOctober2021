@@ -6,7 +6,8 @@
     "title": "Swagger Petstore",
     "termsOfService": "http://swagger.io/terms/",
     "contact": {
-      "email": "apiteam@swagger.io"
+      "email": "apiteam@swagger.io",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     },
     "license": {
       "name": "Apache 2.0",
@@ -571,7 +572,7 @@
         ]
       }
     },
-    "/user/createWithArray": {
+    "/user2/createWithArray": {
       "post": {
         "tags": [
           "user"
@@ -607,7 +608,7 @@
         }
       }
     },
-    "/user/createWithList": {
+    "/user2/createWithList": {
       "post": {
         "tags": [
           "user"
@@ -643,7 +644,7 @@
         }
       }
     },
-    "/user/{username}": {
+    "/user2/{username}": {
       "get": {
         "tags": [
           "user"
@@ -750,7 +751,7 @@
         }
       }
     },
-    "/user/login": {
+    "/user2/login": {
       "get": {
         "tags": [
           "user"
@@ -803,7 +804,7 @@
         }
       }
     },
-    "/user/logout": {
+    "/user2/logout": {
       "get": {
         "tags": [
           "user"
@@ -823,7 +824,7 @@
         }
       }
     },
-    "/user": {
+    "/user2": {
       "post": {
         "tags": [
           "user"

@@ -571,7 +571,7 @@
         }
       }
     },
-    "/user": {
+    "/user2": {
       "post": {
         "tags": [
           "user"
@@ -597,7 +597,7 @@
         }
       }
     },
-    "/user/createWithArray": {
+    "/user2/createWithArray": {
       "post": {
         "tags": [
           "user"
@@ -615,7 +615,7 @@
         }
       }
     },
-    "/user/createWithList": {
+    "/user2/createWithList": {
       "post": {
         "tags": [
           "user"
@@ -633,7 +633,7 @@
         }
       }
     },
-    "/user/login": {
+    "/user2/login": {
       "get": {
         "tags": [
           "user"
@@ -699,7 +699,7 @@
         }
       }
     },
-    "/user/logout": {
+    "/user2/logout": {
       "get": {
         "tags": [
           "user"
@@ -714,7 +714,7 @@
         }
       }
     },
-    "/user/{username}": {
+    "/user2/{username}": {
       "get": {
         "tags": [
           "user"
@@ -959,7 +959,8 @@
             "format": "int64"
           },
           "category": {
-            "$ref": "#/components/schemas/Category"
+            "$ref": "../tmp/openapi.json#/",
+            "$ref": "#/components/schemas/"
           },
           "name": {
             "type": "string",
