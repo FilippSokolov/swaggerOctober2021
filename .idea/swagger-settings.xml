@@ -3,10 +3,25 @@
   <component name="SwaggerSettings">
     <remoteSpecificationUrls>
       <UrlInfo>
-        <option name="urlString" value="https://raw.githubusercontent.com/FilippSokolov/SwaggerUIextended/master/src/main/java/mtitek/swagger/sample/SwaggerPetStore.yaml" />
+        <option name="urlString" value="https://api.swaggerhub.com/apis/gugulet_hu/stripe-usage_records/2020-08-27/swagger.yaml" />
       </UrlInfo>
       <UrlInfo>
         <option name="urlString" value="https://api.swaggerhub.com/apis/FilippSokolov/Petstorev2/1.0.0/swagger.yaml" />
+      </UrlInfo>
+      <UrlInfo>
+        <option name="urlString" value="https://api.swaggerhub.com/apis/FilippSokolov/Petstorev2/1.0.0/swagger.yaml" />
+      </UrlInfo>
+      <UrlInfo>
+        <option name="urlString" value="https://api.swaggerhub.com/apis/JBtest/swagger-petstore/1.0.0/swagger.yaml" />
+      </UrlInfo>
+      <UrlInfo>
+        <option name="urlString" value="https://raw.githubusercontent.com/FilippSokolov/SwaggerUIextended/master/src/main/java/mtitek/swagger/sample/OpenApiPetStore.json" />
+      </UrlInfo>
+      <UrlInfo>
+        <option name="urlString" value="https://raw.githubusercontent.com/m1m1nx/openapi-plugin-bug/master/app/openapi.spec.yaml" />
+      </UrlInfo>
+      <UrlInfo>
+        <option name="urlString" value="https://raw.githubusercontent.com/FilippSokolov/SwaggerDiff/master/src/main/java/mtitek/swagger/sample/SwaggerSchema1.yaml" />
       </UrlInfo>
     </remoteSpecificationUrls>
   </component>

@@ -85,6 +85,7 @@ components:
 
 
 servers:
+  - url: https://my.api.com/bb2
   - url: http://api.NotExample.com/v2
     description: Optional server description, e.g. Main (production) server
     variables:

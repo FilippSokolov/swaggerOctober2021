@@ -1,0 +1,26 @@
+openapi: 3.0.3
+info:
+  title: Commons API
+  description: Commons API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8762/rest/
+paths:
+  /hello-world:
+    get:
+      summary: 'Hello world'
+      operationId: 'sayHello'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringWrapper'
+components:
+  schemas:
+    StringWrapper:
+      type: object
+      properties:
+        value:
+          type: string

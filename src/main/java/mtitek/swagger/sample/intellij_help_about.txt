@@ -1,0 +1,12 @@
+IntelliJ IDEA 2020.2.1 (Ultimate Edition)
+Build #IU-202.6948.69, built on August 24, 2020
+Licensed to Ghyston
+
+Runtime version: 11.0.8+10-b944.31 amd64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+Windows 10 10.0
+GC: ParNew, ConcurrentMarkSweep
+Memory: 1927M
+Cores: 8
+Non-Bundled Plugins: Batch Scripts Support, CMD Support, com.crunch42.openapi, com.intellij.ideolog, Lombook Plugin, com.intellij.nativeDebug, com.siberika.idea.pascal, net.sjrx.intellij.plugins.systemdunitfiles, com.github.shiraji.findpullrequest, AWSCloudFormation, com.intellij.lang.puppet, org.toml.lang, com.intellij.plugin.adernov.powershell, com.perl5, com.microsoft.tooling.msservices.intellij.azure, com.dmarcotte.handlebars, org.jetbrains.plugins.vue, org.jetbrains.kotlin, Pythonid, aws.toolkit, net.ashald.envfile, ru.adelf.idea.dotenv
+
