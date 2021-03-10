@@ -1,0 +1,74 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list>
+      <Biscuit>
+        <option name="date" value="1601467500251" />
+        <option name="domain" value="cookies_domain1" />
+        <option name="name" value="cookies_name1" />
+        <option name="path" value="cookies_path1" />
+        <option name="value" value="cookies_val1" />
+      </Biscuit>
+      <Biscuit>
+        <option name="date" value="1606741500000" />
+        <option name="domain" value="cookies_domain2" />
+        <option name="name" value="cookies_name2" />
+        <option name="path" value="cookies_path2" />
+        <option name="value" value="cookies_val2" />
+      </Biscuit>
+    </list>
+  </option>
+  <option name="httpMethod" value="GET" />
+  <option name="urlBase" value="http://localhost:8080/api/kt" />
+  <option name="urlPath" value="/users0/{some}-{code}-{progress}" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="header_name1" />
+        <option name="value" value="header_value1" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="header_name2" />
+        <option name="value" value="header_name_2" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Age" />
+        <option name="value" value="25" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Accept-Encoding" />
+        <option name="value" value="UTF-8" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="req_param_name1" />
+        <option name="value" value="req_param_value1" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="req_param_name2" />
+        <option name="value" value="req_param_value2" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="some" />
+        <option name="value" value="2" />
+      </KeyValuePair>
+      <option name="parametersEnabled" value="true" />
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>

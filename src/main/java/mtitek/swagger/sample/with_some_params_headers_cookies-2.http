@@ -1,0 +1,12 @@
+# C:\Users\Filipp.Sokolov\Downloads\SwaggerUIextendedsasd\src\main\java\mtitek\swagger\sample\with_some_params_headers_cookies.xml
+GET http://localhost:8080/api/kt/users0/{some}-{code}-{progress}?req_param_name1=req_param_value1&req_param_name2=req_param_value2&some=2
+Accept: */*
+Cache-Control: no-cache
+header_name1: header_value1
+header_name2: header_name_2
+Age: 255553
+Accept-Encoding: UTF-8
+Cookie: cookies_name1=cookies_val1; cookies_name2=cookies_val2
+
+###
+

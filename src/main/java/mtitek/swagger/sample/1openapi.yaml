@@ -1,0 +1,75 @@
+openapi: 3.0.0
+info:
+  title: ''
+  description: ''
+  version: 1.0.0
+servers:
+  - url: "{server}/v5"
+    variables:
+      server:
+        default: ''
+        description: Dev api server
+paths:
+  /jobs:
+    get:
+      summary: Search jobs database
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+          required: false
+        - name: perPage
+          in: query
+          schema:
+            type: integer
+          required: false
+        - name: projectId
+          in: query
+          schema:
+            type: string
+            format: uuid
+          required: false
+        - name: externalId
+          in: query
+          schema:
+            type: string
+            format: uuid
+          required: false
+        - name: query
+          in: query
+          schema:
+            type: string
+          required: false
+        - name: skills
+          in: query
+          schema:
+            $ref: '#/components/schemas/skills'
+          required: false
+        - name: status
+          in: query
+          schema:
+            $ref: '#/components/schemas/status'
+          required: false
+      responses:
+        200:
+          description: ""
+          content:
+            application/json:
+              schema:
+                type: string
+components:
+  schemas:
+    status:
+      type: string
+      enum:
+        - sourcing
+        - in-review
+        - assigned
+        - closed
+        - cancelled
+    skills:
+      type: array
+      items:
+        type: string
+        format: uuid
