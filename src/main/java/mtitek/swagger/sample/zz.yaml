@@ -1,0 +1,29 @@
+openapi: 3.0.3
+info:
+  title: Title
+  description: Title
+  version: 1.0.0
+servers:
+  - url: 'https'
+paths:
+  /foos/--{aaa}--/:
+    post:
+      tags:
+        - "foo-controller"
+      summary: "create"
+      description: ""
+      parameters:
+        - in: path
+          name: aaa
+          type: string
+          required: true
+        - in: body
+          description: ""
+          required: true
+          name: name
+          schema:
+            type: array
+            items:
+              type: string
+            example: ["str1", "str2", "str3"]
+  

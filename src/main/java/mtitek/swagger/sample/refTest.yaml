@@ -1,0 +1,158 @@
+openapi: 3.0.3
+info:
+  title: Users API
+  description: Users API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8762/tramways/rest/
+paths:
+  /hello-world:
+    get:
+      summary: 'Hello world'
+      operationId: 'sayHello'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringWrapper'
+    post:
+      summary: 'Hello world'
+      operationId: 'sayHello'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '/relativereference/base.yaml'
+  /foos/{aaa}/{aaa}:
+    post:
+      tags:
+        - "foo-controller"
+      summary: "create"
+      description: ""
+      responses:
+        '200':
+          description: OK
+      parameters:
+        - in: path
+          name: aaa
+          required: true
+  /users/{id}/reset:
+    put:
+      operationId: 'resetUser'
+      summary: 'Reset user''s password'
+      tags: ['users']
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: './base.yaml#/components/schemas/StringWrapper2'
+      responses:
+        '200':
+          description: OK
+  /users/{id}/reset0:
+    put:
+      operationId: 'resetUser'
+      summary: 'Reset user''s password'
+      tags: ['users']
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: './base.yaml#/components/schemas/StringWrapper2'
+      responses:
+        '200':
+          description: OK
+  /users/{id}/reset2:
+    put:
+      operationId: 'resetUser'
+      summary: 'Reset user''s password'
+      tags: ['users']
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: './base.yaml'
+      responses:
+        '200':
+          description: OK
+  /users/{id}/reset3:
+    put:
+      operationId: 'resetUser'
+      summary: 'Reset user''s password'
+      tags: ['users']
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '../../swagger/sample/base.yaml/'
+      responses:
+        '200':
+          $ref: '/relativereference/base.yaml'
+
+  /users/{id}/reset4:
+    put:
+      operationId: 'resetUser'
+      summary: 'Reset user''s password'
+      tags: ['users']
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: 'base.yaml'
+      responses:
+        '200':
+          description: OK
+  /users/{id}/reset5:
+    put:
+      operationId: 'resetUser'
+      summary: 'Reset user''s password'
+      tags: ['users']
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '../../../../resources/base.yaml#/components/schemas/StringWrapper3'
+      responses:
+        '200':
+          description: OK
+
