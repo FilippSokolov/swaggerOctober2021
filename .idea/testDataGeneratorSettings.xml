@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TestDataGeneratorSettingsState">
+    <option name="userDefinedGenerators">
+      <list>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="January&#10;February&#10;March&#10;April2&#10;May2&#10;June&#10;July2&#10;August&#10;September&#10;October&#10;November&#10;December" />
+            </map>
+          </option>
+          <option name="vtlVariable" value="ss" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="Januaryasdasd&#10;Februarydsad&#10;March&#10;Aprilsdasdasd&#10;May&#10;June&#10;July&#10;Augustas&#10;September&#10;October&#10;November&#10;December" />
+            </map>
+          </option>
+          <option name="name" value="New Test Data Generator2222" />
+        </CustomGeneratorSettings>
+      </list>
+    </option>
+  </component>
+</project>

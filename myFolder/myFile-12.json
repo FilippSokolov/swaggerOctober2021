@@ -1,0 +1,21 @@
+{
+  "args": {},
+  "data": "{\n \"id\": 999,\n  \"value\": \"content\"\n}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept-Encoding": "gzip,deflate",
+    "Content-Length": "36",
+    "Content-Type": "application/json",
+    "Cookie": "fake=fake_value; last_nonce=dda515a520b42d594c39454f2efda522; stale_after=never",
+    "Host": "httpbin.org",
+    "User-Agent": "Apache-HttpClient/4.5.13 (Java/11.0.13)",
+    "X-Amzn-Trace-Id": "Root=1-61c1b822-470cb1b478174476580f90be"
+  },
+  "json": {
+    "id": 999,
+    "value": "content"
+  },
+  "origin": "91.132.204.19",
+  "url": "https://httpbin.org/post"
+}

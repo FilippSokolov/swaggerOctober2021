@@ -1,0 +1,5 @@
+schema:
+  type: object
+  properties:
+    profile_image:
+      $ref: '/secRegBase.yml#/components/schemas/ImageThumbnail'

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="JSConfig">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="JSConfig" />
+              <option name="relativePathToSchema" value="http://json.schemastore.org/jsconfig" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/java/mtitek/swagger/sample/nonGitTest.yml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="JSON Schema version 4">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="JSON Schema version 4" />
+              <option name="relativePathToSchema" value="http://json-schema.org/draft-04/schema" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/java/mtitek/swagger/sample/angular.web-types.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="OpenAPI 3.0">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="OpenAPI 3.0" />
+              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/schemas/v3.0/schema.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/java/mtitek/swagger/sample/file.yml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="OpenAPI 3.1">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="OpenAPI 3.1" />
+              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/java/mtitek/swagger/sample/file.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Swagger 2.0">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Swagger 2.0" />
+              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/schemas/v2.0/schema.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="src/main/java/mtitek/swagger/sample/countries-big.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/main/java/mtitek/swagger/sample/petstore-expanded20.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

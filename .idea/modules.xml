@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SwaggerUI.iml" filepath="$PROJECT_DIR$/SwaggerUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gen/openapi-java-client.iml" filepath="$PROJECT_DIR$/gen/openapi-java-client.iml" />
     </modules>
   </component>
 </project>

@@ -327,6 +327,7 @@ paths:
           description: Invalid Order
   /store/order/{orderId}:
     get:
+    get:
       tags:
       - store
       summary: Find purchase order by ID

@@ -1,0 +1,21 @@
+openapi: "3.0.0"
+info:
+  title: Title
+  description: Title
+  version: 1.0.0
+servers:
+  - url: 'https'
+
+paths:
+  /test:
+    get:
+      description: some
+      responses:
+        200:
+          description: yo
+components:
+  schemas:
+    User:
+      $ref: '/secRegRef.yml'
+    ImageThumbnail:
+      $ref: schemas/image/thumbnail.yml

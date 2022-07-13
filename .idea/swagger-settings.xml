@@ -3,16 +3,7 @@
   <component name="SwaggerSettings">
     <remoteSpecificationUrls>
       <UrlInfo>
-        <option name="urlString" value="https://raw.githubusercontent.com/FilippSokolov/SwaggerUIdecember2020/master/src/main/java/mtitek/swagger/sample/SwaggerPetStore.json" />
-      </UrlInfo>
-      <UrlInfo>
-        <option name="urlString" value="https://api.swaggerhub.com/apis/MiTNugos/NotificationsService/1.0.0/swagger.yaml" />
-      </UrlInfo>
-      <UrlInfo>
-        <option name="urlString" value="https://api.swaggerhub.com/apis/PL-Orchestrator/Provenir-Orchestrator/1.0.0/swagger.yaml" />
-      </UrlInfo>
-      <UrlInfo>
-        <option name="urlString" value="https://api.swaggerhub.com/apis/giangnt115/SoQuanLyBenhNhanPhong/1.0.0/swagger.yaml" />
+        <option name="urlString" value="https://api.swaggerhub.com/apis/FilippSokolov/Petstorev2/1.0.0/swagger.yaml" />
       </UrlInfo>
     </remoteSpecificationUrls>
   </component>
